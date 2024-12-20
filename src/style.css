@@ -126,8 +126,6 @@ button:focus-visible {
   font-size: 1em;
 }
 
-/*-------------*/
-
 .producto {
   display: flex;
   flex-direction: column;
@@ -188,3 +186,4 @@ button:focus-visible {
 .producto button:active {
   transform: translateY(1px);
 }
+
