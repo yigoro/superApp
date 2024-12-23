@@ -4,8 +4,9 @@ const Buscador = document.getElementById("buscador")
 Buscador.addEventListener("input", async (e) => {
   e.preventDefault();
 
-  const response = await fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vQyLVaEmCvBCmq3YVM7ysFHvbXNzcHAJY22K_-K7epbbe0Rso9uK3320s5twHwQwPAGMu2B5MLmPhys/pub?output=csv');
-  const csv = await response.text();
+    const response = await fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vQyLVaEmCvBCmq3YVM7ysFHvbXNzcHAJY22K_-K7epbbe0Rso9uK3320s5twHwQwPAGMu2B5MLmPhys/pub?output=csv');
+    
+    const csv = await response.text();
 
   const rows = csv.split("\n").slice(1); // Divide el CSV en filas y elimina la cabecera
   const data = rows.map(row => {
@@ -25,23 +26,36 @@ Buscador.addEventListener("input", async (e) => {
 
 
 document.addEventListener("DOMContentLoaded", async ()=>{
-  const response = await fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vQyLVaEmCvBCmq3YVM7ysFHvbXNzcHAJY22K_-K7epbbe0Rso9uK3320s5twHwQwPAGMu2B5MLmPhys/pub?output=csv');
-  const csv = await response.text();
 
-  // Parse the CSV data
-  const products = csv
-    .split("\n")
-    .slice(1)
-    .map((row) => {
-      const [id, rubro, link, descripcion, agregado, comprado] = row.split(",");
-      return { id, rubro, link, descripcion, agregado, comprado };
-    });
+  try {
+    const response = await fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vQyLVaEmCvBCmq3YVM7ysFHvbXNzcHAJY22K_-K7epbbe0Rso9uK3320s5twHwQwPAGMu2B5MLmPhys/pub?output=csv');
+
+    // Verificamos si la respuesta es exitosa
+    if (!response.ok) {
+      throw new Error('Error al obtener el CSV: ' + response.statusText);
+    }
+  
+    const csv = await response.text();
+
+    // Parse the CSV data
+    const products = csv
+      .split("\n")
+      .slice(1)
+      .map((row) => {
+        const [id, rubro, link, descripcion, agregado, comprado] = row.split(",");
+        return { id, rubro, link, descripcion, agregado, comprado };
+      });
 
     console.log(products)
 
     products.map(el => {
       creadoraDeCards(el.id, el.rubro, el.link, el.descripcion, el.agregado, el.comprado)
   })
+
+  } catch (error) {
+      // Si ocurre algún error en cualquier parte del proceso, lo manejamos aquí
+      console.error('Ocurrió un error al obtener o procesar los datos:', error);
+    }
 
 });
   
