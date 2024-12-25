@@ -1,5 +1,7 @@
 const Productos = document.getElementById("product-container")
 const Buscador = document.getElementById("buscador")
+let productosAcomprar = []  //se van a almnacenar los productos que se van a comprar
+
 
 Buscador.addEventListener("input", async (e) => {
   e.preventDefault();
@@ -77,11 +79,28 @@ const creadoraDeCards = (id, rubro, link, descripcion, agregado, comprado) => {
     boton.innerText = "Agregar"
 
     boton.addEventListener("click", ()=>{
+      let titulo = ""
+      if (boton.innerText == "Agregar") {
+        productosAcomprar.push({id,descripcion}) //Agregamos a la lista
 
+        boton.style.backgroundColor = 'grey';
+        boton.innerText = "Sacar"
+        titulo = "Agregado"
+
+      } else if (boton.innerText == "Sacar") {
+        productosAcomprar = productosAcomprar.filter(el => el.id !== id) //Sacamos de la lista
+        
+        boton.style.backgroundColor = '';
+        boton.innerText = "Agregar"
+        titulo = "Eliminado"
+      } 
       console.log("se presiono boton")
+      
+
+      console.log(productosAcomprar)
 
       Swal.fire({
-        title: "Agregado",
+        title: titulo,
         text: descripcion,
         icon: "success",
         timer: 1600,
