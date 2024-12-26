@@ -10,20 +10,22 @@ Buscador.addEventListener("input", async (e) => {
     
     const csv = await response.text();
 
-  const rows = csv.split("\n").slice(1); // Divide el CSV en filas y elimina la cabecera
-  const data = rows.map(row => {
-    const [id, rubro, link, descripcion, agregado, comprado] = row.split(",");
-    return { id, rubro, link, descripcion, agregado, comprado };
-  });
+    const rows = csv.split("\n").slice(1); // Divide el CSV en filas y elimina la cabecera
+    const data = rows.map(row => {
+      const [id, rubro, link, descripcion, agregado, comprado] = row.split(",");
+      return { id, rubro, link, descripcion, agregado, comprado };
+    });
 
-  const searchTerm = e.target.value.toLowerCase();
-  const dataFiltrada = data.filter(el => el.rubro.toLowerCase().includes(searchTerm));
+    const searchTerm = e.target.value.toLowerCase();
+    const dataFiltrada = data.filter(el => el.rubro.toLowerCase().includes(searchTerm));
 
-  Productos.innerHTML = "";
+    Productos.innerHTML = "";
 
-  dataFiltrada.forEach(el => {
-    creadoraDeCards(el.id, el.rubro, el.link, el.descripcion, el.agregado, el.comprado);
-  });
+    dataFiltrada.forEach(el => {
+      creadoraDeCards(el.id, el.rubro, el.link, el.descripcion, el.agregado, el.comprado);
+    });
+    
+
 });
 
 
@@ -48,7 +50,7 @@ document.addEventListener("DOMContentLoaded", async ()=>{
         return { id, rubro, link, descripcion, agregado, comprado };
       });
 
-    console.log(products)
+    //console.log(products)
 
     products.map(el => {
       creadoraDeCards(el.id, el.rubro, el.link, el.descripcion, el.agregado, el.comprado)
@@ -78,6 +80,7 @@ const creadoraDeCards = (id, rubro, link, descripcion, agregado, comprado) => {
     desc.innerText = descripcion
     boton.innerText = "Agregar"
 
+
     boton.addEventListener("click", ()=>{
       let titulo = ""
       if (boton.innerText == "Agregar") {
@@ -94,8 +97,8 @@ const creadoraDeCards = (id, rubro, link, descripcion, agregado, comprado) => {
         boton.innerText = "Agregar"
         titulo = "Eliminado"
       } 
+
       console.log("se presiono boton")
-      
 
       console.log(productosAcomprar)
 
