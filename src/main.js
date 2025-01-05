@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", async ()=>{
 
   try {
     const response = await fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vQyLVaEmCvBCmq3YVM7ysFHvbXNzcHAJY22K_-K7epbbe0Rso9uK3320s5twHwQwPAGMu2B5MLmPhys/pub?output=csv');
-
+    //https://docs.google.com/spreadsheets/d/e/2PACX-1vQyLVaEmCvBCmq3YVM7ysFHvbXNzcHAJY22K_-K7epbbe0Rso9uK3320s5twHwQwPAGMu2B5MLmPhys/pub?output=csv'
     // Verificamos si la respuesta es exitosa
     if (!response.ok) {
       throw new Error('Error al obtener el CSV: ' + response.statusText);
