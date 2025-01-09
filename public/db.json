@@ -1,0 +1,274 @@
+[
+    {
+      "id": "1",
+      "rubro": "heladera",
+      "link": "https://sobreroycagnolo.com/wp-content/uploads/2022/02/Crema300ml.png",
+      "descripcion": "crema",
+      "agregado": "0",
+      "comprado": "0"
+    },
+    {
+        "id": "2",
+        "rubro": "heladera",
+        "link": "https://arcordiezb2c.vteximg.com.br/arquivos/ids/181486/Queso-Rallado-Milkaut-40-Gr-1-13121.jpg",
+        "descripcion": "queso rallado",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "3",
+        "rubro": "freezer",
+        "link": "https://distrifood.com.ar/wp-content/uploads/2020/05/noissette-chica.png",
+        "descripcion": "noissette",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "4",
+        "rubro": "freezer",
+        "link": "https://i.pinimg.com/736x/72/b9/83/72b983169c299b5a4c73527b6545eb95.jpg",
+        "descripcion": "nugguets",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "5",
+        "rubro": "freezer",
+        "link": "https://acdn.mitiendanube.com/stores/093/780/products/whatsapp-image-2021-05-22-at-11-51-141-6f4bcce77118e46a4d16217141444383-1024-1024.jpeg",
+        "descripcion": "hamburguesas",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "6",
+        "rubro": "cocina",
+        "link": "https://acdn.mitiendanube.com/stores/003/954/621/products/foto-para-productos-11-c8ce1a371995fad5b017003561747434-1024-1024.png",
+        "descripcion": "rollo cocina",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "7",
+        "rubro": "limpieza",
+        "link": "https://cordoba.parodisrl.com.ar/40230-large_default/lavandina-ayudin-glaciar-4000cc.jpg",
+        "descripcion": "lavandina",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "8",
+        "rubro": "limpieza",
+        "link": "https://acdn.mitiendanube.com/stores/001/132/714/products/new-13835-lyso-vbl-aerosol-314889-1092278-5737255-lyso-aero-original-360cc_12ar-front1-2990c3b045585627d116324942436590-640-0.png",
+        "descripcion": "desinfectante",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "9",
+        "rubro": "limpieza",
+        "link": "https://acdn.mitiendanube.com/stores/414/299/products/trapo-rejilla1-a3d45351f8756c742815124530873036-320-0.jpg",
+        "descripcion": "poet",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "10",
+        "rubro": "limpieza",
+        "link": "https://acdn.mitiendanube.com/stores/002/008/988/products/16_60188244ae2a8-f5fa3b2fcd747800ba16839098332642-1024-1024.jpeg",
+        "descripcion": "escobillon",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "11",
+        "rubro": "limpieza",
+        "link": "https://dcdn.mitiendanube.com/stores/001/119/564/products/4642101-b59c36bf4a7cbcb8f916916045217275-640-0.jpg",
+        "descripcion": "secador",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "12",
+        "rubro": "comestibles",
+        "link": "https://acdn.mitiendanube.com/stores/093/780/products/whatsapp-image-2020-09-11-at-15-13-19-21-8f242626d45a8b794715998765319062-1024-1024.jpeg",
+        "descripcion": "atun",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "13",
+        "rubro": "comestibles",
+        "link": "https://acdn.mitiendanube.com/stores/093/780/products/whatsapp-image-2020-09-11-at-15-13-19-21-8f242626d45a8b794715998765319062-1024-1024.jpeg",
+        "descripcion": "cereales",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "14",
+        "rubro": "comestibles",
+        "link": "https://statics.dinoonline.com.ar/imagenes/full_600x600_ma/2000060_f.jpg",
+        "descripcion": "azucar",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "15",
+        "rubro": "comestibles",
+        "link": "https://atomoconviene.com/atomo-ecommerce/10300-pdt_540/harina-de-trigo-pureza-4-0-refinada-1000-grs-.jpg",
+        "descripcion": "harina",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "16",
+        "rubro": "heladera",
+        "link": "https://thefoodmarketar.vtexassets.com/arquivos/ids/161046/234469_leche-tregar-entera-x-1-l_imagen-1..jpg",
+        "descripcion": "leche",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "17",
+        "rubro": "comestibles",
+        "link": "https://acdn.mitiendanube.com/stores/001/326/060/products/molino-cerrillos_legumbres_lentejas_500g1-c6e24c33a19b2550c816636221527089-640-0.jpg",
+        "descripcion": "lentejas",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "18",
+        "rubro": "heladera",
+        "link": "https://frsaladillo.com.ar/wp-content/uploads/2023/03/JAMON-2.png",
+        "descripcion": "jamon",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "19",
+        "rubro": "heladera",
+        "link": "https://frsaladillo.com.ar/wp-content/uploads/2023/03/JAMON-2.png",
+        "descripcion": "queso en fetas",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "20",
+        "rubro": "heladera",
+        "link": "https://acdn.mitiendanube.com/stores/001/157/846/products/002638431-3158bf6a50249efb7416334541569371-1024-1024.jpg",
+        "descripcion": "tapas pascualina",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "21",
+        "rubro": "heladera",
+        "link": "https://www.lasaltena.com.ar/wp-content/uploads/2020/03/Tapas-Criollas-x12u-1.png",
+        "descripcion": "tapas empanadas",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "22",
+        "rubro": "verduleria",
+        "link": "https://images.cookforyourlife.org/wp-content/uploads/2018/08/shutterstock_294838064-min.jpg",
+        "descripcion": "brocoli",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "23",
+        "rubro": "verduleria",
+        "link": "https://img.freepik.com/vector-gratis/dibujos-animados-repollo-simple-aislado_1308-125571.jpg",
+        "descripcion": "lechuga",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "24",
+        "rubro": "verduleria",
+        "link": "https://www.clarin.com/2024/02/22/zoiUbI60o_2000x1500__1.jpg",
+        "descripcion": "tomate",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "25",
+        "rubro": "verduleria",
+        "link": "https://calimaxmx.vtexassets.com/arquivos/ids/178939/00000000004083.jpg",
+        "descripcion": "papa blanca",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "26",
+        "rubro": "verduleria",
+        "link": "https://www.fervalle.com/wp-content/uploads/2022/07/BERENJENA-290x300.png",
+        "descripcion": "berengena",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "27",
+        "rubro": "verduleria",
+        "link": "https://www.shutterstock.com/image-vector/flat-vector-cartoon-purple-onion-600nw-2508601765.jpg",
+        "descripcion": "cebolla",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "28",
+        "rubro": "aceo personal",
+        "link": "https://www.sorianatural.es/storage/img/F0000002649_ajo_planta_soria_natural.jpg.jpg",
+        "descripcion": "cepillo de dientes",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "29",
+        "rubro": "aceo personal",
+        "link": "https://www.farmacialeloir.com.ar/img/articulos/2021/08/dove_desodorante_antitranspirante_aerosol_original_imagen1.jpg",
+        "descripcion": "desodorante",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "30",
+        "rubro": "aceo personal",
+        "link": "https://elcashonline.com/41958-medium_default/dove-jabon-pastilla-duple-100.jpg",
+        "descripcion": "jabon",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "31",
+        "rubro": "aceo personal",
+        "link": "https://unimarc.vtexassets.com/arquivos/ids/244260/000000000636937004-UN-01.jpg",
+        "descripcion": "champoo",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "32",
+        "rubro": "aceo personal",
+        "link": "https://acdn.mitiendanube.com/stores/001/338/453/products/361-ac3c8d3498a4707d8016046955690714-640-0.png",
+        "descripcion": "crema enjuague",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "33",
+        "rubro": "aceo personal",
+        "link": "https://acdn.mitiendanube.com/stores/001/165/255/products/cremacorporalstivespielrenovada350ml_1200x12001-5c8d0dcd37e671c07c16445174664097-1024-1024.jpg",
+        "descripcion": "crema corporal",
+        "agregado": "0",
+        "comprado": "0"
+      },
+      {
+        "id": "34",
+        "rubro": "verduleria",
+        "link": "https://www.gba.gob.ar/sites/default/files/desarrolloagrario/newsletter/images/huevos.jpg",
+        "descripcion": "huevos",
+        "agregado": "0",
+        "comprado": "0"
+      }
+  ]
