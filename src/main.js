@@ -7,7 +7,7 @@ Buscador.addEventListener("input", async (e) => {
   e.preventDefault();
 
     //const response = await fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vQyLVaEmCvBCmq3YVM7ysFHvbXNzcHAJY22K_-K7epbbe0Rso9uK3320s5twHwQwPAGMu2B5MLmPhys/pub?output=csv');
-    const response = await fetch('public/db-superApp.csv');
+    const response = await fetch('db-superApp.csv');
     const csv = await response.text();
 
     const rows = csv.split("\n").slice(1); // Divide el CSV en filas y elimina la cabecera
@@ -32,8 +32,8 @@ Buscador.addEventListener("input", async (e) => {
 document.addEventListener("DOMContentLoaded", async ()=>{
 
   try {
-    const response = await fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vQyLVaEmCvBCmq3YVM7ysFHvbXNzcHAJY22K_-K7epbbe0Rso9uK3320s5twHwQwPAGMu2B5MLmPhys/pub?output=csv');
-    //https://docs.google.com/spreadsheets/d/e/2PACX-1vQyLVaEmCvBCmq3YVM7ysFHvbXNzcHAJY22K_-K7epbbe0Rso9uK3320s5twHwQwPAGMu2B5MLmPhys/pub?output=csv'
+    const response = await fetch('public/db-superApp.csv');
+    //const response = await fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vQyLVaEmCvBCmq3YVM7ysFHvbXNzcHAJY22K_-K7epbbe0Rso9uK3320s5twHwQwPAGMu2B5MLmPhys/pub?output=csv');
     // Verificamos si la respuesta es exitosa
     if (!response.ok) {
       throw new Error('Error al obtener el CSV: ' + response.statusText);
