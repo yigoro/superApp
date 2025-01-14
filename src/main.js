@@ -6,7 +6,9 @@ let productosAcomprar = []  //se van a almnacenar los productos que se van a com
 Buscador.addEventListener("input", async (e) => {
   e.preventDefault();
 
-    const response = await fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vQyLVaEmCvBCmq3YVM7ysFHvbXNzcHAJY22K_-K7epbbe0Rso9uK3320s5twHwQwPAGMu2B5MLmPhys/pub?output=csv');
+  //https://docs.google.com/spreadsheets/d/e/2PACX-1vQyLVaEmCvBCmq3YVM7ysFHvbXNzcHAJY22K_-K7epbbe0Rso9uK3320s5twHwQwPAGMu2B5MLmPhys/pub?output=csv');
+  
+    const response = await fetch('https://docs.google.com/spreadsheets/d/185iUJDKCuA8qXKRS4mZBoB9HeAt3kUaofD0eiID_0-U/edit?usp=sharing');
     //const response = await fetch('db-superApp.csv');
     const csv = await response.text();
 
